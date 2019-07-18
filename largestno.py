@@ -1,9 +1,10 @@
-a=int(input(""))
-b=int(input(""))
-c=int(input(""))
-if(a>b and a>c):
+v=list(str(input("")))
+a=int(v[0])
+b=int(v[1])
+c=int(v[2])
+if(a>=b)and(a>=c):
     print(a)
-elif(b>a and b>c):
+elif(b>=c)and(b>=a):
     print(b)
-elif(c>a and c>b):
+elif(c>=a)and(c>=b):
     print(c)
