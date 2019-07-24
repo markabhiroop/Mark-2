@@ -1,6 +1,5 @@
-v=list(str(input("")))
-a=int(v[0])
-b=int(v[2])
+a=int(input(""))
+b=int(input(""))
 if (a<b):
     print("Not enough numbers")
 else:
@@ -8,3 +7,6 @@ else:
     y=list(x[:b])
     d=sum(y)
     print(d)
+
+
+
