@@ -1,5 +1,6 @@
-a=int(input(""))
-b=int(input(""))
+v=list(str(input("")))
+a=int(v[0])
+b=int(v[1])
 if (a<b):
     print("Not enough numbers")
 else:
